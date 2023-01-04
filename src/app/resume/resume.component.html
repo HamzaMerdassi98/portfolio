@@ -1,0 +1,50 @@
+
+<div class="container">
+<div class="row ">
+  <div class="col-xl">
+  <section>
+    <h1>Mes Expériences professionnelles</h1>
+    <div *ngFor="let experience of experiences" [@fadeInOut]="'in'">
+      <h3>{{ experience.title }}</h3>
+      <p class="date" id="date">{{ experience.Date }}</p>
+      <p class="description">{{ experience.description }}</p>
+      <p>{{ experience.details }}</p>
+      <p>{{ experience.fRAMWORK }}</p>
+    </div>
+  </section>
+  <section>
+    <h1>EXPERIENCES ASSOCIATIVE</h1>
+    <div *ngFor="let associative of associative" [@fadeInOut]="'in'">
+      <h3>{{ associative.title }}</h3>
+      <p class="date" id="date">{{ associative.Date }}</p>
+      <p class="description">{{ associative.lieu }}</p>
+
+    </div>
+
+  </section>
+</div>
+
+<div class="col-xl" >
+  <section [@fadeInOut]="'in'">
+    <h2>Educations</h2>
+    <div *ngFor="let Education of Education" [@fadeInOut]="'in'">
+      <h3>{{ Education.title }}</h3>
+      <p class="date" id="date">{{ Education.Date }}</p>
+      <p>{{ Education.description }}</p>
+      <p>{{ Education.details }}</p>
+    </div>
+    <h2>Certificate</h2>
+    <div *ngFor="let Certificate of Certificate" [@fadeInOut]="'in'">
+      <h3>{{ Certificate.title }}</h3>
+      <p class="date" id="date">{{ Certificate.Date }}</p>
+      <p>{{ Certificate.description }}</p>
+    </div>
+  </section>
+  </div>
+</div>
+  <footer>
+    <p>Hamza Merdassi {{ currentYear }}</p>
+  </footer>
+</div>
+
+

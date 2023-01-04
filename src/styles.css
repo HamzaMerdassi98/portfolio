@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+*{
+  box-sizing: border-box;
+  padding :0;
+  margin :0;
+  text-decoration: none;
+ }
+
+ html{
+   scroll-behavior: smooth;
+ }
+ body {
+   letter-spacing:2px;
+   font-family: system-ui;
+   background-color: 	#f1f9ff;
+ }
+ :root{
+  --bg-color: 
+ }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

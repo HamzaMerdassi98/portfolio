@@ -1,0 +1,57 @@
+mat-card {
+margin-top: 22px;
+  padding: 24px;
+  background-color: #f5f5f5;
+
+  @include box-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+/* apply this style to the mat-tab-group element */
+mat-tab-group {
+  margin-top: 22px;
+  font-size:95px;
+  /* use the SCSS mixin to create a responsive flexbox layout */
+  @include flex-container(row, wrap, space-between);
+}
+
+/* apply this style to the mat-tab element */
+mat-tab {
+  margin-top: 22px;
+  font-size: 30px;
+
+  /* use the SCSS mixin to create a responsive flexbox layout */
+  @include flex-item(1, 0, auto);
+  height: 100%;
+
+
+  /* add some padding and a background color */
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+/* apply this style to the mat-divider element */
+mat-divider {
+  /* add some margin and a border color */
+  margin: 24px 0;
+  border-color: #dddddd;
+}
+
+/* apply this style to the h1 and h2 elements */
+h2 {
+  /* add some margin and a font size */
+  margin: 24px 0;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: bold;;
+}
+
+/* apply this style to the p element */
+p {
+  /* add some margin and a font size */
+  margin: 18px 0;
+  font-size: 18px;
+}
+::deep-ng mat-tab-label{
+  font: size 25px;
+}

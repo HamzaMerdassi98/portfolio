@@ -1,0 +1,36 @@
+@media screen  {
+  .home img{
+    margin-top: 10px;
+    width:100%;
+    height:90%;
+    object-fit: cover;
+    object-position: center;
+   }
+
+   div
+   {
+     margin-top:-660px;
+     margin-left: 220px;
+     position: relative;
+
+   }
+
+   h1
+   {
+     color:black;
+     font-size : 60px;
+   }
+   p{
+     margin-top:3px;
+     justify-items: center;
+     position: relative;
+     margin-left: 49px;
+     font-size: 20px;
+     font-style: inherit;
+   }
+   a{
+     margin-left: 142px;
+    margin-top: 2px;
+   }
+
+}
